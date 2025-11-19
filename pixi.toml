@@ -1,0 +1,11 @@
+[workspace]
+authors = ["Julian Rüth <julian.rueth@fsfe.org>"]
+channels = ["conda-forge"]
+name = "debugger"
+platforms = ["linux-64", "osx-64", "osx-arm64"]
+version = "0.0.0"
+
+[dependencies]
+mamba = "*"
+python = "*"
+pip = "*"
