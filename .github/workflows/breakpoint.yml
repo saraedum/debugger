@@ -7,7 +7,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        on: ["ubuntu-24.04", "macos-13", "macos-14", "macos-15", "macos-15-intel"]
+        on: ["ubuntu-24.04", "macos-14", "macos-15", "macos-15-intel"]
     steps:
       - uses: actions/checkout@v4
         with: { submodules: recursive }
