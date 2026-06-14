@@ -13,7 +13,7 @@ jobs:
         with: { submodules: recursive }
       - uses: prefix-dev/setup-pixi@v0.8.1
         with: { pixi-version: v0.68.1}
-      - run: rsync --daemon --port=8730 --config=rsyncd.conf
+      - run: sudo rsync --daemon --port=8730 --config=rsyncd.conf
       - uses: namespacelabs/breakpoint-action@v0
         with:
           duration: 3m
